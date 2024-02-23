@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+}
+#title{
+    font-size: 100px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+#board{
+    height: 510px;
+    width: 510px;
+    background-color: blue;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 10px solid blue;
+}
+
+#board img{
+    height: 100px;
+    width: 100px;
+    border: 0.1px solid blue;
+}
